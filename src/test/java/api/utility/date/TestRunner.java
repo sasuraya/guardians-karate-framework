@@ -8,9 +8,9 @@ public class TestRunner {
 	@Karate.Test
 	public Karate runTest() {
 		//address for our feature files and tag
-		//return Karate.run("classpath:features")
-				//.tags("Regression");
+		return Karate.run("classpath:features")
+				.tags("@Regrastion");
 				 
-		return Karate.run("classpath:features").tags("@Regression,@Smoke");
+		//return Karate.run("classpath:features").tags("@Regression,@Smoke");
 	}
 }

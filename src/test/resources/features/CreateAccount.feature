@@ -19,24 +19,15 @@ Feature: Create Account feature
     * def autoEmail = generateDataObject.getEmail()
     And request
       """  
-      {  
-          
-      "email": "#(autoEmail)",  
-         
-      "firstName": "toto",
-          
-      "lastName": "boss",
-      
-      "title": "Mrs.",
-      
-      "gender": "FEMALE",
-      
-      "maritalStatus": "SINGLE",
-      
-      "employmentStatus": "Software Student",
-      
-      "dateOfBirth": "1986-02-28"
-      
+      {          
+      "email": "#(autoEmail)",          
+      "firstName": "toto",         
+      "lastName": "boss",      
+      "title": "Mrs.",     
+      "gender": "FEMALE",     
+      "maritalStatus": "SINGLE",    
+      "employmentStatus": "Software Student",     
+      "dateOfBirth": "1986-02-28"     
       }
 
       """

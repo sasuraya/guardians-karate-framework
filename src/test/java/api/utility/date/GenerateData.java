@@ -26,7 +26,7 @@ public class GenerateData {
 	public static String getLicensePlate() {
 	String prefix = "ab";
 	String provider = "123";
-	int random = (int) (Math.random() * 100);
+	int random = (int) (Math.random() * 10000);
 	String LicensePlate = prefix + random + provider;
 	return LicensePlate; 
 	}
