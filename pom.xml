@@ -19,7 +19,8 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-	<!-- Adding Build Plagins to this Project -->
+
+	<!-- Adding Build Plugins to this Project -->
 	<build>
 		<plugins>
 			<plugin>

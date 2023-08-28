@@ -1,4 +1,5 @@
-Feature: End-to-End Test for Account Creation
+ @Regression
+ Feature: End-to-End Test for Account Creation
 
   Background:
     Given url "https://tek-insurance-api.azurewebsites.net"  
