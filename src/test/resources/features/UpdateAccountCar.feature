@@ -1,4 +1,4 @@
-#@Regression
+@Regression
 Feature: Updateing an account car
 
   Background: setup test
